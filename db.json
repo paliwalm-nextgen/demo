@@ -1,5 +1,5 @@
 {
-  plans:[
+  "plans":[
     [
 	{
 		"intervalCount": 24,
@@ -101,7 +101,7 @@
 	}
 ]
   ],
-  equipment:[
+  "equipment":[
     [
 	{
 		"updatedAt": 1543602083123,
