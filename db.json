@@ -1,260 +1,307 @@
 {
-  "plans":[
-    [
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543600880435,
-		"createdAt": 1543600880435,
-		"amount": 5,
-		"parentPlan": null,
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "f109b830-f4c9-11e8-9330-1d7afbda7079",
-		"name": "User Pack"
-	},
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543600826767,
-		"createdAt": 1543600826767,
-		"amount": 3.95,
-		"parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "d10ca1f0-f4c9-11e8-9330-1d7afbda7079",
-		"name": "Data Pillar - Asset Management"
-	},
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543600837044,
-		"createdAt": 1543600837044,
-		"amount": 3.95,
-		"parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "d72cc740-f4c9-11e8-9330-1d7afbda7079",
-		"name": "Data Pillar - Quality Management"
-	},
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543598628983,
-		"createdAt": 1543598628983,
-		"amount": 20,
-		"parentPlan": null,
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "b3116870-f4c4-11e8-b181-0b3b6f21cf41",
-		"name": "Base Connectivity"
-	},
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543600847452,
-		"createdAt": 1543600847452,
-		"amount": 3.95,
-		"parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "dd60e9c0-f4c9-11e8-9330-1d7afbda7079",
-		"name": "Data Pillar - Report Management"
-	},
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543600857607,
-		"createdAt": 1543600857607,
-		"amount": 3.95,
-		"parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "e36e7170-f4c9-11e8-9330-1d7afbda7079",
-		"name": "Data Pillar - Menu Management"
-	},
-	{
-		"intervalCount": 24,
-		"currency": "USD",
-		"interval": "monthly",
-		"usageType": "licensed",
-		"updatedAt": 1543600867945,
-		"createdAt": 1543600867945,
-		"amount": 3.95,
-		"parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
-		"billingScheme": "per_unit",
-		"description": null,
-		"id": "e997e590-f4c9-11e8-9330-1d7afbda7079",
-		"name": "Data Pillar - Service Management"
-	}
-]
+  "pillars": [
+    {
+      "id": 1,
+      "name": "ServiceManagement",
+      "caption": "Service Management"
+    },
+    {
+      "id": 2,
+      "name": "ReportManagement",
+      "caption": "Report Management"
+    },
+    {
+      "id": 3,
+      "name": "QualityManagement",
+      "caption": "Quality Management"
+    },
+    {
+      "id": 4,
+      "name": "AssetManagement",
+      "caption": "Asset Management"
+    },
+    {
+      "id": 5,
+      "name": "MenuManagement",
+      "caption": "Menu Management"
+    }
   ],
-  "equipment":[
-    [
-	{
-		"updatedAt": 1543602083123,
-		"createdAt": 1543602083123,
-		"brand": "Garland",
-		"id": "bde55830-f4cc-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "XPress Grill Series",
-		"tags": []
-	},
-	{
-		"updatedAt": 1543602120222,
-		"createdAt": 1543602120222,
-		"brand": "Kolpak",
-		"id": "d40233e0-f4cc-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement"
-		],
-		"name": "Wifi Arctic Fox Walk-Ins",
-		"tags": []
-	},
-	{
-		"updatedAt": 1543602054258,
-		"createdAt": 1543602054258,
-		"brand": "Delfeld",
-		"id": "acb0e520-f4cc-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "Specification Line Series",
-		"tags": []
-	},
-	{
-		"updatedAt": 1543602006321,
-		"createdAt": 1543602006321,
-		"brand": "FryMaster",
-		"id": "901e4a10-f4cc-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "FilterQuick with FQ4000 fryer",
-		"tags": [
-			"Coming Soon"
-		]
-	},
-	{
-		"model": "e2s",
-		"updatedAt": 1543602345768,
-		"createdAt": 1543602345768,
-		"brand": "MerryChef",
-		"id": "5a71ca80-f4cd-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "elkon e2s"
-	},
-	{
-		"createdAt": 1543602427028,
-		"brand": "Multiplex",
-		"id": "8ae11540-f4cd-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement"
-		],
-		"name": "Fresh Blender",
-		"updatedAt": 1543602427028
-	},
-	{
-		"updatedAt": 1543601942564,
-		"createdAt": 1543601942564,
-		"brand": "Convotherm",
-		"id": "6a1dbe40-f4cc-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "easytouch and easyDial mini Combi Ovens",
-		"tags": [
-			"Coming Soon"
-		]
-	},
-	{
-		"model": "NXT",
-		"updatedAt": 1543602396708,
-		"createdAt": 1543602396708,
-		"brand": "Manitowoc",
-		"id": "78ce9e40-f4cd-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement"
-		],
-		"name": "Indigo NXT Ice Machines"
-	},
-	{
-		"model": "1600",
-		"updatedAt": 1543602200042,
-		"createdAt": 1543602200042,
-		"brand": "Lincoln",
-		"id": "0395c4a0-f4cd-11e8-9e9d-e7b9072757d4",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "1600 Conveyer Oven",
-		"tags": [
-			"Coming Soon"
-		]
-	},
-	{
-		"createdAt": 1543601329102,
-		"brand": "Cleveland",
-		"id": "fc76dee0-f4ca-11e8-a8b9-a50eced1728a",
-		"supportedPillars": [
-			"ServiceManagement",
-			"ReportManagement",
-			"QualityManagement",
-			"AssetManagement",
-			"MenuManagement"
-		],
-		"name": "easyDial Kettle Series",
-		"updatedAt": 1543601329102
-	}
-]
+  "plans": [
+    {
+      "id": "f109b830-f4c9-11e8-9330-1d7afbda7079",
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543600880435,
+      "createdAt": 1543600880435,
+      "amount": 5,
+      "parentPlan": null,
+      "billingScheme": "per_unit",
+      "description": "some description",
+      "name": "User Pack"
+    },
+    {
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543600826767,
+      "createdAt": 1543600826767,
+      "amount": 3.95,
+      "parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
+      "billingScheme": "per_unit",
+      "description": null,
+      "id": "d10ca1f0-f4c9-11e8-9330-1d7afbda7079",
+      "name": "Data Pillar - Asset Management"
+    },
+    {
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543600837044,
+      "createdAt": 1543600837044,
+      "amount": 3.95,
+      "parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
+      "billingScheme": "per_unit",
+      "description": null,
+      "id": "d72cc740-f4c9-11e8-9330-1d7afbda7079",
+      "name": "Data Pillar - Quality Management"
+    },
+    {
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543598628983,
+      "createdAt": 1543598628983,
+      "amount": 20,
+      "parentPlan": null,
+      "billingScheme": "per_unit",
+      "description": null,
+      "id": "b3116870-f4c4-11e8-b181-0b3b6f21cf41",
+      "name": "Base Connectivity"
+    },
+    {
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543600847452,
+      "createdAt": 1543600847452,
+      "amount": 3.95,
+      "parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
+      "billingScheme": "per_unit",
+      "description": null,
+      "id": "dd60e9c0-f4c9-11e8-9330-1d7afbda7079",
+      "name": "Data Pillar - Report Management"
+    },
+    {
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543600857607,
+      "createdAt": 1543600857607,
+      "amount": 3.95,
+      "parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
+      "billingScheme": "per_unit",
+      "description": null,
+      "id": "e36e7170-f4c9-11e8-9330-1d7afbda7079",
+      "name": "Data Pillar - Menu Management"
+    },
+    {
+      "intervalCount": 24,
+      "currency": "USD",
+      "interval": "monthly",
+      "usageType": "licensed",
+      "updatedAt": 1543600867945,
+      "createdAt": 1543600867945,
+      "amount": 3.95,
+      "parentPlan": "5bf87220-f1ba-11e8-b2e2-47d19706e676",
+      "billingScheme": "per_unit",
+      "description": null,
+      "id": "e997e590-f4c9-11e8-9330-1d7afbda7079",
+      "name": "Data Pillar - Service Management"
+    },
+    {
+      "name": "Equipment Rental",
+      "description": "Crem subscription Plan",
+      "interval": "monthly",
+      "intervalCount": 24,
+      "amount": 30,
+      "currency": "USD",
+      "billingScheme": "per_unit",
+      "usageType": "licensed",
+      "id": "8A8hZUM"
+    }
+  ],
+  "equipment": [
+    {
+      "updatedAt": 1543602083123,
+      "createdAt": 1543602083123,
+      "brand": "Garland",
+      "id": "bde55830-f4cc-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement",
+        "MenuManagement"
+      ],
+      "name": "XPress Grill Series",
+      "tags": []
+    },
+    {
+      "updatedAt": 1543602120222,
+      "createdAt": 1543602120222,
+      "brand": "Kolpak",
+      "id": "d40233e0-f4cc-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement"
+      ],
+      "name": "Wifi Arctic Fox Walk-Ins",
+      "tags": []
+    },
+    {
+      "updatedAt": 1543602054258,
+      "createdAt": 1543602054258,
+      "brand": "Delfeld",
+      "id": "acb0e520-f4cc-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement",
+        "MenuManagement"
+      ],
+      "name": "Specification Line Series",
+      "tags": []
+    },
+    {
+      "updatedAt": 1543602006321,
+      "createdAt": 1543602006321,
+      "brand": "FryMaster",
+      "id": "901e4a10-f4cc-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement",
+        "MenuManagement"
+      ],
+      "name": "FilterQuick with FQ4000 fryer",
+      "tags": [
+        "coming_soon"
+      ]
+    },
+    {
+      "model": "e2s",
+      "updatedAt": 1543602345768,
+      "createdAt": 1543602345768,
+      "brand": "MerryChef",
+      "id": "5a71ca80-f4cd-11e8-9e9d-e7b9072757d4",
+      "tags": [],
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement",
+        "MenuManagement"
+      ],
+      "name": "elkon e2s"
+    },
+    {
+      "createdAt": 1543602427028,
+      "brand": "Multiplex",
+      "id": "8ae11540-f4cd-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement"
+      ],
+      "tags": [],
+      "name": "Fresh Blender",
+      "updatedAt": 1543602427028
+    },
+    {
+      "updatedAt": 1543601942564,
+      "createdAt": 1543601942564,
+      "brand": "Convotherm",
+      "id": "6a1dbe40-f4cc-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement",
+        "MenuManagement"
+      ],
+      "name": "easytouch and easyDial mini Combi Ovens",
+      "tags": [
+        "coming_soon"
+      ]
+    },
+    {
+      "model": "NXT",
+      "updatedAt": 1543602396708,
+      "createdAt": 1543602396708,
+      "brand": "Manitowoc",
+      "id": "78ce9e40-f4cd-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement"
+      ],
+      "tags": [],
+      "name": "Indigo NXT Ice Machines"
+    },
+    {
+      "model": "1600",
+      "updatedAt": 1543602200042,
+      "createdAt": 1543602200042,
+      "brand": "Lincoln",
+      "id": "0395c4a0-f4cd-11e8-9e9d-e7b9072757d4",
+      "supportedPillars": [
+        "ServiceManagement",
+        "ReportManagement",
+        "QualityManagement",
+        "AssetManagement",
+        "MenuManagement"
+      ],
+      "name": "1600 Conveyer Oven",
+      "tags": [
+        "coming_soon"
+      ]
+    },
+    {
+      "createdAt": 1543601329102,
+      "brand": "Cleveland",
+      "id": "fc76dee0-f4ca-11e8-a8b9-a50eced1728a",
+      "supportedPillars": [
+        "AssetManagement",
+        "MenuManagement",
+        "QualityManagement"
+      ],
+      "tags": [],
+      "name": "easyDial Kettle Series",
+      "updatedAt": 1543601329102
+    },
+    {
+      "supportedPillars": [
+        "AssetManagement,MenuManagement,QualityManagement"
+      ],
+      "tags": [
+        "coming_soon"
+      ],
+      "name": "Crem CoffeeMatic",
+      "brand": "Crem",
+      "id": "0snXY6~"
+    }
   ]
 }
